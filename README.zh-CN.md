@@ -17,11 +17,7 @@
 
 ## 演示
 
-<video src="./ray_tracing_c_demo.mp4" controls width="100%">
-  当前浏览器不支持嵌入视频，请通过下面的链接观看演示。
-</video>
-
-[▶ 观看演示视频](./ray_tracing_c_demo.mp4)
+https://github.com/user-attachments/assets/42778599-c74b-4a4d-8f91-a1d6512ca3da
 
 ## 功能
 

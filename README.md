@@ -17,11 +17,7 @@ This is a small interactive ray-tracing demo written in C. It visualizes rays em
 
 ## Demo
 
-<video src="./ray_tracing_c_demo.mp4" controls width="100%">
-  Your browser does not support embedded video. Open the link below to watch the demo.
-</video>
-
-[▶ Watch the demo video](./ray_tracing_c_demo.mp4)
+https://github.com/user-attachments/assets/42778599-c74b-4a4d-8f91-a1d6512ca3da
 
 ## Features
 
