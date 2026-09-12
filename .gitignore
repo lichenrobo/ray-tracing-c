@@ -1,0 +1,24 @@
+# Documentation and demo media
+*.md
+*.mp4
+
+# CMake build directories
+/build/
+/out/
+/cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Compiled objects and executables
+*.o
+*.obj
+*.exe
+*.out
+*.pdb
+
+# Visual Studio local files
+/.vs/
