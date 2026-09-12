@@ -35,13 +35,13 @@ Border border = {UP_BORDER, DOWN_BORDER, LEFT_BORDER, RIGHT_BORDER};
 #define SILVER  tigrRGB(0xc0, 0xc0, 0xc0)
 
 // Define Ray Number and Reflect Times
-#define RAY_NUM 90
+#define RAY_NUM 360
 #define REF_NUM 1
 #define SAMPLE_RADIUS 10
 
 // Define refleciton albedo
-#define BORDER_ALBEDO 0.8
-#define OBSTACLE_ALBEDO 0.8
+#define BORDER_ALBEDO 0.75
+#define OBSTACLE_ALBEDO 0.75
 
 
 // Define Cirle struct
