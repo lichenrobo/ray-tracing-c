@@ -2,6 +2,9 @@
 *.md
 *.mp4
 
+# Personal article workspace
+/blog/
+
 # CMake build directories
 /build/
 /out/

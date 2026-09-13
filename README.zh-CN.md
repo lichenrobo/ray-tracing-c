@@ -15,6 +15,8 @@
 
 这是一个使用 C 语言编写的小型交互式光线追踪演示程序。它展示了可移动光源发出的光线、光线与障碍物和窗口边界的碰撞，以及反射后的传播路径。项目使用 [TIGR](https://github.com/erkkah/tigr) 完成窗口创建、图形绘制和鼠标输入。
 
+关于项目原理的简要介绍，请参阅我的博客文章：[使用 C 语言实现光线追踪](https://blog.lichenrobo.com/fun-projects/ray-tracing-c/)。
+
 ## 演示
 
 https://github.com/user-attachments/assets/42778599-c74b-4a4d-8f91-a1d6512ca3da

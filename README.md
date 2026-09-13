@@ -15,6 +15,8 @@ This project was inspired by YouTuber [**Daniel Hirsch**](https://www.bilibili.c
 
 This is a small interactive ray-tracing demo written in C. It visualizes rays emitted by a movable light source, their collisions with an obstacle and the window boundaries, and their reflected paths. The project uses [TIGR](https://github.com/erkkah/tigr) for window creation, drawing, and mouse input.
 
+For a brief introduction to the principles behind the project, see my blog post: [Ray Tracing in C](https://blog.lichenrobo.com/fun-projects/ray-tracing-c/).
+
 ## Demo
 
 https://github.com/user-attachments/assets/42778599-c74b-4a4d-8f91-a1d6512ca3da
