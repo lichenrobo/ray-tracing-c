@@ -1,5 +1,4 @@
-# Documentation and demo media
-*.md
+# Demo media
 *.mp4
 
 # Personal article workspace
@@ -25,3 +24,4 @@ compile_commands.json
 
 # Visual Studio local files
 /.vs/
+/.vscode/
