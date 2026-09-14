@@ -90,7 +90,7 @@ void Process_Mouse_Evevt(Mouse_Event *mouse, Circle *bulb, Circle *obstacle)
 
 
     // Right button to adjust obstacle position
-    if (mouse->button == 4)
+    if (mouse->button == 2)
     {
         // Set position within the screen
         //obstacle->x = mouse->x;   
@@ -263,8 +263,8 @@ void Generate_Rays(Tigr* screen, Circle bulb, Border border, int ray_num, int re
         double photon_x, photon_y;
         int pixel_x, pixel_y;
         TPixel ray_color;
-        photon_x = bulb.x + bulb.r * x_step;
-        photon_y = bulb.y - bulb.r * y_step;            // Because screen y is opposite to nomal coordinate y
+        photon_x = bulb.x + (bulb.r-1) * x_step;
+        photon_y = bulb.y - (bulb.r-1) * y_step;            // Because screen y is opposite to nomal coordinate y
         
         
         // Draw specific ray
@@ -398,17 +398,19 @@ int main(int argc, char *argv[])
         tigrMouse(screen, &mouse.x, &mouse.y, &mouse.button);
         Process_Mouse_Evevt(&mouse, &bulb, &obstacle);
 
-        // Drow obstacle and light source
+        // Drow obstacle
         tigrFillCircle(screen, obstacle.x, obstacle.y, obstacle.r, obstacle.color);        
         //tigrFillRect(screen, 600, 200, 150, 75, obstacle.color);                      // Support multi obstacles
-
-        tigrFillCircle(screen, bulb.x, bulb.y, bulb.r, bulb.color);
-        tigrCircle(screen, bulb.x, bulb.y, bulb.r, RED);
 
 
         // Drow rays from the light source
         // Key function!!!
         Generate_Rays(screen, bulb, border, RAY_NUM, REF_NUM);
+
+
+        // Drow light source
+        tigrFillCircle(screen, bulb.x, bulb.y, bulb.r, bulb.color);
+        //tigrCircle(screen, bulb.x, bulb.y, bulb.r, RED);
 
 
 
